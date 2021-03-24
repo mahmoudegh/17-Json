@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Json</title>
+  </head>
+  <body>
+    <a
+      href="https://www.youtube.com/watch?v=D_-jeFIhHsc&list=PLDoPjvoNmBAwH_PyuEFjk3OvXflJJrDRQ&index=6"
+      target="blank"
+      >Video Of The Course</a
+    >
+
+    <script>
+      // let myJsonObject = '{ "username" : "Mahmoud", "Age" : 35 }';
+      // let myJsObject = JSON.parse(myJsonObject);
+
+      // console.log(myJsonObject);
+      // console.log(typeof myJsonObject); // String
+
+      // console.log(myJsObject);
+      // console.log(typeof myJsObject); // Object
+
+      let myJsObject = { username: "Mahmoud", Age: 35 };
+      let myJsonObject = JSON.stringify(myJsObject);
+
+      console.log(myJsObject);
+      console.log(typeof myJsObject); // Object
+
+      console.log(myJsonObject);
+      console.log(typeof myJsonObject); // String
+    </script>
+  </body>
+</html>

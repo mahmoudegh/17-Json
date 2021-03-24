@@ -1,0 +1,14 @@
+{
+  "username": "Mahmoud",
+  "country": "Egypt",
+  "skills": ["HTML", "CSS", "JavaScript"],
+  "adresses": {
+    "Egypt": "Assiut",
+    "KSA": "Makka",
+    "USA": "NewYork",
+    "Germany": ["One", "Two", "Three"]
+  },
+  "Age": 35,
+  "Working": false,
+  "Identity": null
+}

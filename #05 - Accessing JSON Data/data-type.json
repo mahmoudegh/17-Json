@@ -1,0 +1,22 @@
+{
+  "username": "Mahmoud",
+  "country": "Egypt",
+  "skills": [
+    ["HTML", "Pugjs", "Haml"],
+    ["CSS", "Sass", "Less"],
+    ["Js", "Babel"]
+  ],
+  "skillsProgress": [
+    { "HTML": "60%", "Pugjs": "50%" },
+    { "CSS": "70%", "Sass": "60%" }
+  ],
+  "adresses": {
+    "Egypt": "Assiut",
+    "KSA": "Makka",
+    "USA": "NewYork",
+    "Germany": ["One", "Two", "Three"]
+  },
+  "Age": 35,
+  "Working": false,
+  "Identity": null
+}

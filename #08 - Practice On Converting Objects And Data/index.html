@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Json</title>
+  </head>
+  <body>
+    <div id="data">
+      <div id="name"></div>
+      <div id="age"></div>
+    </div>
+    <a
+      href="https://www.youtube.com/watch?v=2WXtFtTSafs&list=PLDoPjvoNmBAwH_PyuEFjk3OvXflJJrDRQ&index=8"
+      target="blank"
+      >Video Of The Course</a
+    >
+
+    <script>
+      let myJson = '{"username" : "Mahmoud", "age" : 35}';
+      let myJs = JSON.parse(myJson);
+
+      document.getElementById("name").innerHTML = "My name is " + myJs.username;
+      document.getElementById("age").innerHTML = "My age is " + myJs.age;
+    </script>
+  </body>
+</html>
